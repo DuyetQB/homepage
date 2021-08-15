@@ -1,0 +1,125 @@
+
+.banner{
+    background: url(../images/first-img.png);
+    padding:20px;
+    height:608px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.banner-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.banner-text h3{
+    font-size:70px;
+    color:#000;
+    font-family: FontBold;
+}
+.banner .menu{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.banner .menu li{
+    padding:10px 13px;
+}
+.banner .menu a{
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+}
+
+.style .style-image{
+    position: relative;
+    height: 100%;
+}
+.style .style-image .style-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.style .style-image .style-text h3{
+    color:#fff;
+    font-size:70px;
+    font-family: FontBold;
+}
+
+.style .style-image .style-text h4{
+    color:#fff;
+    font-size:30px;
+}
+
+.style .style-tags{
+    padding:20px 0px;
+
+}
+.style .style-tags h4{
+    text-transform: uppercase;
+    font-size:17px;
+}
+
+
+.footer .footer-left{
+    padding:40px 80px;
+}
+
+.footer .footer-left .input-field{
+    display: flex;
+    margin:20px 0px;
+}
+.footer .footer-left .input-field input{
+    width:70%;
+    border: 1px solid gray;
+}
+.footer .footer-left .input-field .btn{
+    background: #000;
+    color:#fff;
+    outline: none;
+    border: none;
+    padding:15px;
+    margin-left: 10px;
+    font-family: FontBold;
+    font-size: 17px;
+}
+.footer .footer-left .image-social{
+    width:190px;
+    cursor: pointer;
+}
+
+
+.footer .footer-item-text{
+    font-family: FontBold;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.footer .footer-right{
+    padding:40px 80px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.footer .footer-right li{
+    padding:10px 0px;
+}
+
+.footer .footer-right li a{
+    text-decoration:none;
+    color:grey;
+    font-size: 16px;
+}
+
+.allright {
+    padding: 20px 0px 80px 0px;
+}
+
+.allright p {
+    font-size: 15px;
+}
